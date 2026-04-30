@@ -15,15 +15,15 @@
 
 <header class="site-header">
   <nav class="nav">
-    <a href="index.html" class="brand"><img src="logo.png" alt="DataRaft logo"><span>DataRaft</span></a>
+    <a href="index" class="brand"><img src="logo.png" alt="DataRaft logo"><span>DataRaft</span></a>
     <ul class="nav-links" id="navLinks">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="industries.html">Industries</a></li>
-      <li><a href="technologies.html">Technologies</a></li>
-      <li><a href="case-studies.html">Case Studies</a></li>
-      <li class="nav-cta"><a href="contact.html" class="btn btn-primary" style="padding:10px 20px;font-size:.9rem">Contact Us</a></li>
+      <li><a href="index">Home</a></li>
+      <li><a href="about">About</a></li>
+      <li><a href="services">Services</a></li>
+      <li><a href="industries">Industries</a></li>
+      <li><a href="technologies">Technologies</a></li>
+      <li><a href="case-studies">Case Studies</a></li>
+      <li class="nav-cta"><a href="contact" class="btn btn-primary" style="padding:10px 20px;font-size:.9rem">Contact Us</a></li>
     </ul>
     <button class="nav-toggle" aria-label="Toggle menu">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
@@ -33,7 +33,7 @@
 
 <section class="page-hero">
   <div class="container">
-    <div class="breadcrumb"><a href="index.html">Home</a> <span>/</span> <span>Case Studies</span></div>
+    <div class="breadcrumb"><a href="index">Home</a> <span>/</span> <span>Case Studies</span></div>
     <h1>Case Studies</h1>
     <p>Real engagements. Measurable outcomes. See how we deliver value for our clients.</p>
   </div>
@@ -96,7 +96,7 @@
   <div class="cta-section reveal">
     <h2>Want similar results?</h2>
     <p>Let's discuss how DataRaft Labs can transform your technology landscape.</p>
-    <a href="contact.html" class="btn btn-light">Start Your Project →</a>
+    <a href="contact" class="btn btn-light">Start Your Project →</a>
   </div>
 </section>
 
@@ -108,14 +108,14 @@
         <p>Engineering digital excellence — DataRaft Labs is a global technology partner for product engineering, cloud, data, and enterprise solutions.</p>
       </div>
       <div><h4>Services</h4><ul>
-        <li><a href="services.html">Generative AI &amp; LLM</a></li><li><a href="services.html">Big Data Engineering</a></li>
-        <li><a href="services.html">Microsoft Fabric &amp; Power BI</a></li><li><a href="services.html">Cloud Data Platform</a></li>
-        <li><a href="services.html">Product Engineering</a></li><li><a href="services.html">Cloud Engineering</a></li>
-        <li><a href="services.html">ERP &amp; CRM</a></li><li><a href="services.html">Data &amp; AI</a></li><li><a href="services.html">Support Services</a></li><li><a href="services.html">Cyber Security</a></li>
+        <li><a href="services">Generative AI &amp; LLM</a></li><li><a href="services">Big Data Engineering</a></li>
+        <li><a href="services">Microsoft Fabric &amp; Power BI</a></li><li><a href="services">Cloud Data Platform</a></li>
+        <li><a href="services">Product Engineering</a></li><li><a href="services">Cloud Engineering</a></li>
+        <li><a href="services">ERP &amp; CRM</a></li><li><a href="services">Data &amp; AI</a></li><li><a href="services">Support Services</a></li><li><a href="services">Cyber Security</a></li>
       </ul></div>
       <div><h4>Company</h4><ul>
-        <li><a href="about.html">About Us</a></li><li><a href="industries.html">Industries</a></li>
-        <li><a href="technologies.html">Technologies</a></li><li><a href="case-studies.html">Case Studies</a></li><li><a href="contact.html">Contact</a></li>
+        <li><a href="about">About Us</a></li><li><a href="industries">Industries</a></li>
+        <li><a href="technologies">Technologies</a></li><li><a href="case-studies">Case Studies</a></li><li><a href="contact">Contact</a></li>
       </ul></div>
       <div><h4>Get in Touch</h4><ul>
         <li><a href="mailto:info@dataraftlabs.com">info@dataraftlabs.com</a></li>
