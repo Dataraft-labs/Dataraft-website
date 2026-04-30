@@ -16,18 +16,18 @@
 <!-- HEADER -->
 <header class="site-header">
   <nav class="nav">
-    <a href="index.html" class="brand">
+    <a href="index" class="brand">
       <img src="logo.png" alt="DataRaft logo">
       <span>DataRaft</span>
     </a>
     <ul class="nav-links" id="navLinks">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="industries.html">Industries</a></li>
-      <li><a href="technologies.html">Technologies</a></li>
-      <li><a href="case-studies.html">Case Studies</a></li>
-      <li class="nav-cta"><a href="contact.html" class="btn btn-primary" style="padding:10px 20px;font-size:.9rem">Contact Us</a></li>
+      <li><a href="index">Home</a></li>
+      <li><a href="about">About</a></li>
+      <li><a href="services">Services</a></li>
+      <li><a href="industries">Industries</a></li>
+      <li><a href="technologies">Technologies</a></li>
+      <li><a href="case-studies">Case Studies</a></li>
+      <li class="nav-cta"><a href="contact" class="btn btn-primary" style="padding:10px 20px;font-size:.9rem">Contact Us</a></li>
     </ul>
     <button class="nav-toggle" aria-label="Toggle menu">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
@@ -44,8 +44,8 @@
         <h1>Engineering <span class="grad">Intelligent Digital Solutions</span> for Modern Enterprises</h1>
         <p class="lead">DataRaft Labs helps enterprises and startups build scalable products, implement enterprise platforms, modernize legacy systems, and leverage Cloud, AI, and Data to accelerate business growth.</p>
         <div class="hero-cta">
-          <a href="contact.html" class="btn btn-primary">Get Free Consultation →</a>
-          <a href="services.html" class="btn btn-ghost-light">View Our Services</a>
+          <a href="contact" class="btn btn-primary">Get Free Consultation →</a>
+          <a href="services" class="btn btn-ghost-light">View Our Services</a>
         </div>
         <p class="hero-trust">Product Engineering · Cloud · Data · ERP · CRM · AI Solutions</p>
       </div>
@@ -333,7 +333,7 @@
   <div class="cta-section reveal">
     <h2>Ready to transform your technology?</h2>
     <p>Partner with DataRaft Labs to build modern, scalable, and intelligent solutions tailored to your business.</p>
-    <a href="contact.html" class="btn btn-light">Book Free Consultation →</a>
+    <a href="contact" class="btn btn-light">Book Free Consultation →</a>
   </div>
 </section>
 
@@ -351,25 +351,25 @@
       <div>
         <h4>Services</h4>
         <ul>
-          <li><a href="services.html">Generative AI &amp; LLM</a></li>
-          <li><a href="services.html">Big Data Engineering</a></li>
-          <li><a href="services.html">Microsoft Fabric &amp; Power BI</a></li>
-          <li><a href="services.html">Cloud Data Platform</a></li>
-          <li><a href="services.html">Product Engineering</a></li>
-          <li><a href="services.html">Cloud Engineering</a></li>
-          <li><a href="services.html">ERP &amp; CRM</a></li>
-          <li><a href="services.html">Data &amp; AI</a></li>
-          <li><a href="services.html">Support Services</a></li><li><a href="services.html">Cyber Security</a></li>
+          <li><a href="services">Generative AI &amp; LLM</a></li>
+          <li><a href="services">Big Data Engineering</a></li>
+          <li><a href="services">Microsoft Fabric &amp; Power BI</a></li>
+          <li><a href="services">Cloud Data Platform</a></li>
+          <li><a href="services">Product Engineering</a></li>
+          <li><a href="services">Cloud Engineering</a></li>
+          <li><a href="services">ERP &amp; CRM</a></li>
+          <li><a href="services">Data &amp; AI</a></li>
+          <li><a href="services">Support Services</a></li><li><a href="services">Cyber Security</a></li>
         </ul>
       </div>
       <div>
         <h4>Company</h4>
         <ul>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="industries.html">Industries</a></li>
-          <li><a href="technologies.html">Technologies</a></li>
-          <li><a href="case-studies.html">Case Studies</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about">About Us</a></li>
+          <li><a href="industries">Industries</a></li>
+          <li><a href="technologies">Technologies</a></li>
+          <li><a href="case-studies">Case Studies</a></li>
+          <li><a href="contact">Contact</a></li>
         </ul>
       </div>
       <div>
