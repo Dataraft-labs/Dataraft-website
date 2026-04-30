@@ -14,10 +14,10 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Highlight active nav link
-  const path = window.location.pathname.split('/').pop() || 'index';
+  const path = window.location.pathname.split('/').pop() || 'index.html';
   document.querySelectorAll('.nav-links a').forEach(a => {
     const href = a.getAttribute('href');
-    if (href === path || (path === '' && href === 'index')) {
+    if (href === path || (path === '' && href === 'index.html')) {
       a.classList.add('active');
     }
   });
