@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Products — DataRaft Labs</title>
+<meta name="description" content="DataRaft Labs in-house products: AI-powered tools, e-commerce accelerators, and next-generation digital products built for modern enterprises.">
+<link rel="icon" type="image/png" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand"><img src="logo.png" alt="DataRaft logo"><span>DataRaft</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="industries.html">Industries</a></li>
+      <li><a href="technologies.html">Technologies</a></li>
+      <li><a href="case-studies.html">Case Studies</a></li>
+      <li class="nav-cta"><a href="contact.html" class="btn btn-primary" style="padding:10px 20px;font-size:.9rem">Contact Us</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </nav>
+</header>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> <span>/</span> <span>Products</span></div>
+    <div class="products-hero-badge"><span class="dot"></span> In-House Innovation</div>
+    <h1>Our Product Suite</h1>
+    <p>Purpose-built digital products powered by AI, built for the modern enterprise — from intelligent e-commerce to next-gen automation tools.</p>
+  </div>
+</section>
+
+<!-- PRODUCT CATEGORY NAV -->
+<section class="section" style="padding-bottom:0">
+  <div class="container">
+    <div class="section-title reveal">
+      <span class="eyebrow">Explore by Category</span>
+      <h2>Products built in-house, ready to deploy</h2>
+      <p>Each product is engineered with the same enterprise-grade standards we apply to our client work.</p>
+    </div>
+    <div class="products-nav reveal" id="productsNav">
+      <button class="products-nav-btn active" data-cat="ecommerce">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4zM3 6h18M16 10a4 4 0 0 1-8 0"/></svg>
+        E-Commerce
+      </button>
+      <button class="products-nav-btn" data-cat="ai">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2a2 2 0 0 1 2 2v2a2 2 0 0 1-4 0V4a2 2 0 0 1 2-2zM12 16a2 2 0 0 1 2 2v2a2 2 0 0 1-4 0v-2a2 2 0 0 1 2-2zM4.93 4.93a2 2 0 0 1 2.83 2.83L6.34 9.17a2 2 0 0 1-2.83-2.83zM2 12a2 2 0 0 1 2-2h2a2 2 0 0 1 0 4H4a2 2 0 0 1-2-2zM16 12a2 2 0 0 1 2-2h2a2 2 0 0 1 0 4h-2a2 2 0 0 1-2-2z"/></svg>
+        AI Products
+      </button>
+      <button class="products-nav-btn" data-cat="trending">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 7l-8.5 8.5-5-5L2 17M22 7h-5M22 7v5"/></svg>
+        Trending
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCT CATEGORIES -->
+<section class="section" style="padding-top:40px">
+  <div class="container">
+
+    <!-- E-COMMERCE PRODUCTS -->
+    <div class="product-category active" id="cat-ecommerce">
+
+      <div class="product-hero-card reveal">
+        <div class="product-tag">E-Commerce Suite</div>
+        <h2>End-to-End E-Commerce Accelerators</h2>
+        <p>From storefront to fulfilment — our e-commerce products cut time-to-market dramatically with pre-built, AI-enhanced modules designed for scale.</p>
+        <div class="product-hero-meta">
+          <span class="product-meta-chip">Multi-Vendor Ready</span>
+          <span class="product-meta-chip">AI-Powered Search</span>
+          <span class="product-meta-chip">Headless Commerce</span>
+          <span class="product-meta-chip">Omnichannel</span>
+        </div>
+      </div>
+
+      <div class="product-features-grid reveal">
+        <div class="product-feature-card">
+          <div class="product-feature-icon">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 17H7a4 4 0 0 1 0-8h.5A6 6 0 0 1 18 11a4 4 0 0 1 0 8h-2M12 12v9"/></svg>
+          </div>
+          <h4>AI Product Discovery Engine</h4>
+          <p>Semantic search and LLM-powered recommendations that learn from shopper behavior in real time.</p>
+        </div>
+        <div class="product-feature-card">
+          <div class="product-feature-icon">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M7 15h0M2 9.5h20"/></svg>
+          </div>
+          <h4>Smart Checkout & Payments</h4>
+          <p>One-click checkout with dynamic pricing, multi-currency, UPI, cards, BNPL, and fraud detection built in.</p>
+        </div>
+        <div class="product-feature-card">
+          <div class="product-feature-icon">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <h4>Vendor & Marketplace Portal</h4>
+          <p>Multi-vendor onboarding, catalog management, commission rules, and real-time settlement dashboards.</p>
+        </div>
+        <div class="product-feature-card">
+          <div class="product-feature-icon">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 16v4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V10l6-6h8a2 2 0 0 1 2 2v4M12 4v6h6"/></svg>
+          </div>
+          <h4>Inventory Intelligence</h4>
+          <p>Predictive stock management, auto-replenishment, and warehouse sync across multiple locations.</p>
+        </div>
+        <div class="product-feature-card">
+          <div class="product-feature-icon">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
+          </div>
+          <h4>Loyalty & Personalization</h4>
+          <p>AI-driven loyalty programs, personalized promotions, and hyper-targeted email and push campaigns.</p>
+        </div>
+        <div class="product-feature-card">
+          <div class="product-feature-icon">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 15a4 4 0 0 1 4-4h.5a6 6 0 0 1 11.5 2 4 4 0 0 1 0 8H7a4 4 0 0 1-4-4z"/></svg>
+          </div>
+          <h4>Headless & PWA Storefront</h4>
+          <p>Lightning-fast headless frontend with PWA support, built for sub-2s load times on any device.</p>
+        </div>
+      </div>
+
+      <div class="section-title reveal" style="margin-top:60px">
+        <span class="eyebrow">E-Commerce Products</span>
+        <h2>Ready-to-launch e-commerce solutions</h2>
+      </div>
+      <div class="product-showcase-grid reveal">
+        <div class="product-showcase-card">
+          <div class="product-showcase-img"><span>ShopRaft</span></div>
+          <div class="product-showcase-body">
+            <span class="status-badge status-live">Live</span>
+            <h3>ShopRaft — Multi-Vendor Marketplace</h3>
+            <p>A fully featured B2C/B2B marketplace platform supporting thousands of vendors, AI-powered search, and real-time analytics.</p>
+            <div class="product-tech-tags">
+              <span class="product-tech-tag">React</span>
+              <span class="product-tech-tag">Node.js</span>
+              <span class="product-tech-tag">Elasticsearch</span>
+              <span class="product-tech-tag">AWS</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-showcase-card">
+          <div class="product-showcase-img"><span>OmniCart</span></div>
+          <div class="product-showcase-body">
+            <span class="status-badge status-live">Live</span>
+            <h3>OmniCart — Headless Commerce Engine</h3>
+            <p>API-first commerce engine with plug-and-play integrations for Shopify, Magento, SAP Commerce, and custom storefronts.</p>
+            <div class="product-tech-tags">
+              <span class="product-tech-tag">Next.js</span>
+              <span class="product-tech-tag">GraphQL</span>
+              <span class="product-tech-tag">Stripe</span>
+              <span class="product-tech-tag">Redis</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-showcase-card">
+          <div class="product-showcase-img"><span>RetailIQ</span></div>
+          <div class="product-showcase-body">
+            <span class="status-badge status-beta">Beta</span>
+            <h3>RetailIQ — Commerce Analytics Platform</h3>
+            <p>Real-time dashboards and AI-driven insights covering conversions, basket analysis, inventory turns, and customer LTV.</p>
+            <div class="product-tech-tags">
+              <span class="product-tech-tag">Snowflake</span>
+              <span class="product-tech-tag">Power BI</span>
+              <span class="product-tech-tag">Python</span>
+              <span class="product-tech-tag">Kafka</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- AI PRODUCTS -->
+    <div class="product-category" id="cat-ai">
+
+      <div class="product-hero-card reveal">
+        <div class="product-tag">AI Product Suite</div>
+        <h2>Enterprise AI Products Built for Real Work</h2>
+        <p>Our AI products go beyond demos — they are production-grade, enterprise-ready tools that integrate with your existing systems and deliver measurable business outcomes.</p>
+        <div class="product-hero-meta">
+          <span class="product-meta-chip">LLM-Powered</span>
+          <span class="product-meta-chip">RAG Architecture</span>
+          <span class="product-meta-chip">On-Prem & Cloud</span>
+          <span class="product-meta-chip">GDPR Ready</span>
+        </div>
+      </div>
+
+      <div class="product-features-grid reveal">
+        <div class="product-feature-card">
+          <div class="product-feature-icon">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <h4>Conversational AI Copilots</h4>
+          <p>Domain-specific AI assistants trained on your data — for HR, finance, legal, IT, and customer support.</p>
+        </div>
+        <div class="product-feature-card">
+          <div class="product-feature-icon">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          </div>
+          <h4>Document Intelligence</h4>
+          <p>Extract, classify, and analyze information from contracts, invoices, reports, and scanned documents at scale.</p>
+        </div>
+        <div class="product-feature-card">
+          <div class="product-feature-icon">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 3v18h18M7 16l4-4 4 4 5-5"/></svg>
+          </div>
+          <h4>Predictive Intelligence Engine</h4>
+          <p>ML-powered forecasting for demand, churn, fraud, and operational risk — delivered via APIs or embedded dashboards.</p>
+        </div>
+        <div class="product-feature-card">
+          <div class="product-feature-icon">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </div>
+          <h4>AI-Powered Knowledge Search</h4>
+          <p>Vector-based semantic search across enterprise knowledge bases — PDFs, wikis, databases, and SharePoint.</p>
+        </div>
+        <div class="product-feature-card">
+          <div class="product-feature-icon">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h4>Responsible AI Guardrails</h4>
+          <p>Built-in safety layers — bias detection, hallucination filters, PII redaction, and audit logging for enterprise compliance.</p>
+        </div>
+        <div class="product-feature-card">
+          <div class="product-feature-icon">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 17.5h7M17.5 14v7"/></svg>
+          </div>
+          <h4>AI Workflow Orchestration</h4>
+          <p>Visual no-code/low-code pipeline builder to chain AI agents, APIs, and business logic into automated workflows.</p>
+        </div>
+      </div>
+
+      <div class="section-title reveal" style="margin-top:60px">
+        <span class="eyebrow">AI Products</span>
+        <h2>Our flagship AI products</h2>
+      </div>
+      <div class="product-showcase-grid reveal">
+        <div class="product-showcase-card">
+          <div class="product-showcase-img"><span>NexusAI</span></div>
+          <div class="product-showcase-body">
+            <span class="status-badge status-live">Live</span>
+            <h3>NexusAI — Enterprise Copilot Platform</h3>
+            <p>A white-label enterprise AI copilot platform powered by GPT-4o and Claude. Deploy internal AI assistants in days, not months.</p>
+            <div class="product-tech-tags">
+              <span class="product-tech-tag">GPT-4o</span>
+              <span class="product-tech-tag">LangChain</span>
+              <span class="product-tech-tag">Pinecone</span>
+              <span class="product-tech-tag">Azure</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-showcase-card">
+          <div class="product-showcase-img"><span>DocuSense</span></div>
+          <div class="product-showcase-body">
+            <span class="status-badge status-live">Live</span>
+            <h3>DocuSense — AI Document Platform</h3>
+            <p>Intelligent document processing that extracts, classifies, and routes information from any document type — with 95%+ accuracy.</p>
+            <div class="product-tech-tags">
+              <span class="product-tech-tag">OCR</span>
+              <span class="product-tech-tag">RAG</span>
+              <span class="product-tech-tag">FastAPI</span>
+              <span class="product-tech-tag">PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-showcase-card">
+          <div class="product-showcase-img"><span>PulseML</span></div>
+          <div class="product-showcase-body">
+            <span class="status-badge status-beta">Beta</span>
+            <h3>PulseML — Predictive Analytics Engine</h3>
+            <p>No-code predictive analytics platform that lets business teams build and deploy ML models without writing a single line of code.</p>
+            <div class="product-tech-tags">
+              <span class="product-tech-tag">AutoML</span>
+              <span class="product-tech-tag">MLflow</span>
+              <span class="product-tech-tag">Snowflake</span>
+              <span class="product-tech-tag">React</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TRENDING PRODUCTS -->
+    <div class="product-category" id="cat-trending">
+
+      <div class="product-hero-card reveal">
+        <div class="product-tag">Trending & Next-Gen</div>
+        <h2>Products Built for What's Next</h2>
+        <p>We invest in emerging technology products at the intersection of AI agents, real-time data, and modern UX — so you stay ahead of the curve.</p>
+        <div class="product-hero-meta">
+          <span class="product-meta-chip">Agentic AI</span>
+          <span class="product-meta-chip">Real-Time</span>
+          <span class="product-meta-chip">Low-Code</span>
+          <span class="product-meta-chip">API-First</span>
+        </div>
+      </div>
+
+      <div class="product-features-grid reveal">
+        <div class="product-feature-card">
+          <div class="product-feature-icon">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          </div>
+          <h4>AI Agent Platform</h4>
+          <p>Build, deploy, and orchestrate autonomous AI agents that handle multi-step tasks across your enterprise systems.</p>
+        </div>
+        <div class="product-feature-card">
+          <div class="product-feature-icon">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 12h6l2-4 4 8 2-4h2"/></svg>
+          </div>
+          <h4>Real-Time Data Streaming Hub</h4>
+          <p>Unified event streaming platform that connects applications, databases, and AI models with sub-millisecond latency.</p>
+        </div>
+        <div class="product-feature-card">
+          <div class="product-feature-icon">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12" y2="18"/></svg>
+          </div>
+          <h4>Mobile-First Enterprise Apps</h4>
+          <p>Cross-platform mobile applications built with Flutter and React Native — offline-capable and deeply integrated with enterprise backends.</p>
+        </div>
+        <div class="product-feature-card">
+          <div class="product-feature-icon">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2zM2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>
+          </div>
+          <h4>Web3 & Blockchain Integrations</h4>
+          <p>Smart contract development, tokenization, and decentralized identity solutions for supply chain, finance, and legal applications.</p>
+        </div>
+        <div class="product-feature-card">
+          <div class="product-feature-icon">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          </div>
+          <h4>No-Code App Builder</h4>
+          <p>Drag-and-drop enterprise app builder with AI assistance — create internal tools, workflows, and portals without developers.</p>
+        </div>
+        <div class="product-feature-card">
+          <div class="product-feature-icon">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          </div>
+          <h4>Unified Observability Platform</h4>
+          <p>Full-stack observability combining logs, metrics, traces, and AI-powered anomaly detection in a single pane of glass.</p>
+        </div>
+      </div>
+
+      <div class="section-title reveal" style="margin-top:60px">
+        <span class="eyebrow">Trending Products</span>
+        <h2>Our next-generation products</h2>
+      </div>
+      <div class="product-showcase-grid reveal">
+        <div class="product-showcase-card">
+          <div class="product-showcase-img"><span>AgentFlow</span></div>
+          <div class="product-showcase-body">
+            <span class="status-badge status-beta">Beta</span>
+            <h3>AgentFlow — AI Agent Orchestration</h3>
+            <p>Visual platform to design and deploy multi-agent AI systems that autonomously complete complex business workflows end-to-end.</p>
+            <div class="product-tech-tags">
+              <span class="product-tech-tag">LangGraph</span>
+              <span class="product-tech-tag">AutoGen</span>
+              <span class="product-tech-tag">Python</span>
+              <span class="product-tech-tag">Kubernetes</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-showcase-card">
+          <div class="product-showcase-img"><span>StreamBridge</span></div>
+          <div class="product-showcase-body">
+            <span class="status-badge status-beta">Beta</span>
+            <h3>StreamBridge — Real-Time Data Hub</h3>
+            <p>A managed Kafka-as-a-service platform with built-in schema registry, stream processing, and AI-powered anomaly alerts.</p>
+            <div class="product-tech-tags">
+              <span class="product-tech-tag">Kafka</span>
+              <span class="product-tech-tag">Flink</span>
+              <span class="product-tech-tag">Spark</span>
+              <span class="product-tech-tag">GCP</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-showcase-card">
+          <div class="product-showcase-img"><span>BuildEasy</span></div>
+          <div class="product-showcase-body">
+            <span class="status-badge status-soon">Coming Soon</span>
+            <h3>BuildEasy — Enterprise No-Code Platform</h3>
+            <p>AI-assisted no-code platform for building internal tools, approval workflows, and data dashboards — 10x faster than traditional development.</p>
+            <div class="product-tech-tags">
+              <span class="product-tech-tag">React</span>
+              <span class="product-tech-tag">AI-Assisted</span>
+              <span class="product-tech-tag">REST/GraphQL</span>
+              <span class="product-tech-tag">PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- WHY OUR PRODUCTS -->
+<section class="section section-soft">
+  <div class="container">
+    <div class="section-title reveal">
+      <span class="eyebrow">Product Philosophy</span>
+      <h2>Why choose DataRaft products</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-card reveal"><span class="why-num">01</span><h3>Enterprise-Grade from Day One</h3><p>Security, scalability, and compliance baked in — not bolted on. Every product is built to enterprise standards.</p></div>
+      <div class="why-card reveal"><span class="why-num">02</span><h3>Customizable & Extensible</h3><p>Open architecture and rich APIs let you extend, integrate, and white-label to fit your exact business context.</p></div>
+      <div class="why-card reveal"><span class="why-num">03</span><h3>AI Built In, Not Plugged In</h3><p>AI is core to how our products work — not a feature add-on. Expect intelligence at every layer.</p></div>
+      <div class="why-card reveal"><span class="why-num">04</span><h3>Rapid Time to Value</h3><p>Pre-built accelerators and modular architecture mean you go live in weeks, not quarters.</p></div>
+      <div class="why-card reveal"><span class="why-num">05</span><h3>Backed by Engineering Excellence</h3><p>The same team that builds enterprise solutions for global clients also maintains and evolves our products.</p></div>
+      <div class="why-card reveal"><span class="why-num">06</span><h3>Continuous Innovation</h3><p>Our products ship updates quarterly — incorporating the latest AI advances and customer-driven improvements.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section style="padding:60px 0 80px">
+  <div class="cta-section reveal">
+    <h2>Ready to see a product demo?</h2>
+    <p>Schedule a live demo with our product team and explore how DataRaft products fit into your digital ecosystem.</p>
+    <a href="contact.html" class="btn btn-light">Request a Demo →</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="brand-block"><img src="logo_white.png" alt="DataRaft"><span>DataRaft</span></div>
+        <p>Engineering digital excellence — DataRaft Labs is a global technology partner for product engineering, cloud, data, and enterprise solutions.</p>
+      </div>
+      <div><h4>Products</h4><ul>
+        <li><a href="products.html">E-Commerce Suite</a></li>
+        <li><a href="products.html">AI Products</a></li>
+        <li><a href="products.html">Trending Products</a></li>
+        <li><a href="products.html">NexusAI Copilot</a></li>
+        <li><a href="products.html">DocuSense</a></li>
+        <li><a href="products.html">ShopRaft</a></li>
+      </ul></div>
+      <div><h4>Company</h4><ul>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="industries.html">Industries</a></li>
+        <li><a href="technologies.html">Technologies</a></li>
+        <li><a href="case-studies.html">Case Studies</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul></div>
+      <div><h4>Get in Touch</h4><ul>
+        <li><a href="mailto:info@dataraftlabs.com">info@dataraftlabs.com</a></li>
+        <li><a href="tel:+919347789906">+91-9347789906</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 DataRaft Labs Private Limited. All rights reserved.</div>
+      <div>Engineering Digital Excellence</div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>
+// Product category tabs
+document.addEventListener('DOMContentLoaded', () => {
+  const btns = document.querySelectorAll('.products-nav-btn');
+  const cats = document.querySelectorAll('.product-category');
+  btns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      btns.forEach(b => b.classList.remove('active'));
+      cats.forEach(c => c.classList.remove('active'));
+      btn.classList.add('active');
+      const target = document.getElementById('cat-' + btn.dataset.cat);
+      if (target) target.classList.add('active');
+    });
+  });
+});
+</script>
+</body>
+</html>
